@@ -1,0 +1,11 @@
+@font-face 
+{
+    font-family: 'Raleway' ;
+    src: url('Projet 2 - Reservia/Polices/Raleway-Italic-VariableFont_wght.ttf') ;
+    src: url('Projet 2 - Reservia/Polices/Raleway-VariableFont_wght.ttf') ;
+}
+
+body
+{
+    font-family: 'Raleway';
+}

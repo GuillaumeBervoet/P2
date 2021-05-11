@@ -3,9 +3,62 @@
     font-family: 'Raleway' ;
     src: url('Projet 2 - Reservia/Polices/Raleway-Italic-VariableFont_wght.ttf') ;
     src: url('Projet 2 - Reservia/Polices/Raleway-VariableFont_wght.ttf') ;
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body
 {
     font-family: 'Raleway';
+    width: 1200px;
+    margin: auto;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav ul
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+nav li
+{
+    margin-right: 50px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    font-weight: bold ;
+    border-top: 2px #0065FC solid;
+}
+
+#Logo img
+{
+    display: flex;
+    width: 100px;
+    height:auto;
+}
+#Pointer
+{
+    width: 30px;
+    height: 30px;
+}
+
+#Search
+{
+    display: flex;
 }

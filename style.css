@@ -11,8 +11,17 @@
 body
 {
     font-family: 'Raleway';
+    font-size: 0.7em;
+}
+#bloc_page
+{
     width: 1200px;
     margin: auto;
+}
+
+h2
+{
+    font-weight: bold;
 }
 
 header
@@ -37,8 +46,14 @@ nav a
 {
     font-size: 1.3em;
     text-decoration: none;
+    color: black;
 }
 
+#inscrire
+{
+    font-weight: bold;
+    color:blue
+}
 nav a:hover
 {
     color: #0065FC;
@@ -50,8 +65,9 @@ nav a:hover
 {
     display: flex;
     width: 100px;
-    height:auto;
 }
+
+
 #Pointer
 {
     width: 30px;
@@ -61,4 +77,60 @@ nav a:hover
 #Search
 {
     display: flex;
+}
+#info
+{
+    width: 10px;
+    height: 10px;
+}
+#Filtres
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+#dog, #bill, #child, #heart
+{
+    height: 10px;
+}
+#Filtres ul
+{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+#Filtres li
+{
+    margin-right: 30px;
+    
+}
+#hebergements
+{
+    background-color: #F2F2F2;;
+}
+
+#populaire
+{
+    background-color: #F2F2F2;
+}
+
+#vignetteH img
+{
+    width : 200px;
+    height: auto;
+}
+
+#vignetteP img
+{
+    height : 100px
+}
+
+footer
+{
+    width: 1300px;
+    margin: auto;
+    background-color:#F2F2F2 ;
 }

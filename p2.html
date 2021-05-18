@@ -7,7 +7,7 @@
     </head>
 
     <body>
-
+        <div id="bloc_page">
         <header>
             <!-- Logo Reservia + Menu de navigation-->
 
@@ -18,9 +18,9 @@
             <nav> 
                 <!-- 3 liens ancres qui redirigent vers la section du site -->
                 <ul>
-                    <li><a href="#H">Hébergements</a></li>
-                    <li><a href="#A">Activités</a></li>
-                    <li><a href="#">S'incrire</a></li>
+                    <li><a href="#hebergements">Hébergements</a></li>
+                    <li><a href="#activites">Activités</a></li>
+                    <li><a href="#" id=inscrire>S'incrire</a></li>
                 </ul>
             </nav>
         </header>
@@ -36,14 +36,34 @@
             <form><input type="search" placeholder="Marseile,France."/></form>
             <button>Rechercher</button>
             </div>
+            <div id=Filtres>
+                Filtres
+                <ul>
+                    <li>
+                        <img id=bill src="Projet 2 - Reservia/images/icones/money-bill-wave-solid.svg">
+                        Économique</li>
+                    <li>
+                        <img id=child src="Projet 2 - Reservia/images/icones/child-solid.svg">
+                        Familial</li>
+                    <li>
+                        <img id=heart src="Projet 2 - Reservia/images/icones/heart-solid.svg">
+                        Romantique</li>
+                    <li>
+                        <img id=dog src="Projet 2 - Reservia/images/icones/dog-solid.svg">
+                        Animaux autorisés</li>
+                </li>
+            </div>
+            <img id=info src="Projet 2 - Reservia/images/icones/info-solid.svg">
             Plus de 500 logements sont disponibles dans cette ville
         </section>
 
-        <section id="H">
+        <section id="hebergements">
             <!-- Titre hébergement + vignettes-->
-            <h2>Hébergements à Marseille</h2>
+            <p>
+                <h2>Hébergements à Marseille</h2>
+            </p>
 
-            <div class=vignetteH>
+            <div id=vignetteH>
                 <a href="#">
                     Auberge la Cannebière
                     Nuit à partir de 25€
@@ -83,11 +103,11 @@
 
         </section>
 
-        <section>
+        <section id=populaire>
             <!-- Titre populaire + vignettes-->
             <h2>Les plus populaires</h2>
 
-            <div class=vignetteP>
+            <div id=vignetteP>
                 <a href="#">
                     Hôtel Le soleil du matin
                     Nuit à partir de 128€
@@ -109,7 +129,7 @@
 
         </section>
 
-        <section id="A">
+        <section id="activites">
             <!-- Titre activités à marseille + vignettes-->
             <h2>Activités à Marseille</h2>
 
@@ -146,6 +166,7 @@
             </div>
 
         </section>
+    </div>
 
         <footer>
             <!-- Bandereau informationnel-->
